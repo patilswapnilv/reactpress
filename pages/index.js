@@ -11,7 +11,7 @@ class PostListPage extends React.Component {
     const posts = await wpapi
       .posts()
       .embed()
-      .perPage(5)
+      .perPage(10)
       .page(currentPage);
     return { posts, paging: posts._paging };
   }
