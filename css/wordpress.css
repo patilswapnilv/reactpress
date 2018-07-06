@@ -2,3 +2,13 @@
   float: left;
   margin: 0rem 1rem 2rem 0rem;
 }
+
+.alignright {
+  float: right;
+  margin: 0rem 0rem 2rem 1rem;
+}
+
+.aligncenter {
+  margin: 2rem auto;
+  display: block;
+}
