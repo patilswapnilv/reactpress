@@ -13,7 +13,11 @@ class PostPage extends React.Component {
   }
 
   render() {
-    return <DefaultLayout>{<Post post={this.props.post} />}</DefaultLayout>;
+    return (
+      <DefaultLayout>
+        <Post post={this.props.post} />
+      </DefaultLayout>
+    );
   }
 }
 

@@ -1,6 +1,10 @@
 import Link from "next/link";
 const CategoryListItem = ({ term }) => (
-  <span style={styles.span}>
+  <span
+    style={{
+      paddingRight: "5px"
+    }}
+  >
     <Link
       href={`/category?slug=${term.slug}`}
       as={`/category/${term.slug}`}
@@ -10,11 +14,5 @@ const CategoryListItem = ({ term }) => (
     </Link>
   </span>
 );
-
-const styles = {
-  span: {
-    paddingRight: "5px"
-  }
-};
 
 export default CategoryListItem;
