@@ -8,9 +8,9 @@ Under the hood, Reactpress is using [Next.js](https://github.com/zeit/next.js/).
 
 ## Gettings started
 
-### 1 - Make sur CORS are enabled on your Wordpress
+### 1 - Make sure CORS are enabled on your Wordpress
 
-add this to your wp-config.php to make sure CORS are enabled :
+Reactpress is only the front-end for your application. It's up to you to install Wordpress as you would usually do. Please not that REST Api is available only since Wordpress 4.7. You can add this to your wp-config.php to make sure CORS are enabled.
 
 ```php
 // allow CORS
