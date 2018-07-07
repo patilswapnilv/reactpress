@@ -1,6 +1,7 @@
-# WORDPRESS + REACT = REACTPRESS 💛
+# REACT + WORDPRESS = REACTPRESS 💛
 
-Start a SEO-friendly Decoupled Wordpress with React in minutes.
+Start a **SEO-friendly** Decoupled Wordpress with React in minutes.<br /><br />
+Under the hood, Reactpress is using [Next.js](https://github.com/zeit/next.js/).
 
 ## Gettings started
 
@@ -16,19 +17,19 @@ header("Access-Control-Allow-Origin: *");
 ### install
 
 ```sh
+# install dependencis
 npm install
-# start the dev server.
+# start the dev server on http://localhost:3000
 npm run dev
 ```
 
-You're ready to go ! You can now start working by looking / hacking / editing **pages** and **components** and **css** directories ! <br /><br />
+You can already start hacking / editing **pages** and **components** directories ! <br /><br />
 
-By default, reactpress uses a demo API, so code is working out of the box.<br /> To connect your own API, edit **reactpress.config.js** file and edit variable
-**wordpressUrl** so that is points to your wordpress site with **REST API V2** and CORS enabled :
+By default, reactpress uses a demo API. To connect your own API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
 ```js
-export default {
-  wordpressUrl: "https://dev-reactpress.pantheonsite.io"
+module.exports = {
+  wordpressApiUrl: "https://dev-reactpress.pantheonsite.io/wp-json"
 };
 ```
 
@@ -37,9 +38,9 @@ export default {
 ### current features
 
 - SEO Friendly : Server Side Rendering with Next.js
+- Nices seo-friendly urls using wordpress slugs
 - Post, Posts list, posts by category, posts by tag
 - Page
-- Nices seo-friendly urls using wordpress slugs
 - Page loader (progress bar)
 - Pagination
 
