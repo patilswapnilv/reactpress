@@ -1,6 +1,6 @@
 # REACT + WORDPRESS = REACTPRESS 💛
 
-Start a **SEO-friendly** Decoupled Wordpress with React in minutes.<br /><br />
+Start a **SEO-friendly** Decoupled Wordpress with React in minutes, without configuring boring stuff.<br /><br />
 Under the hood, Reactpress is using [Next.js](https://github.com/zeit/next.js/).
 
 ## Gettings started
