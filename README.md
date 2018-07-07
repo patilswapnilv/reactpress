@@ -1,11 +1,11 @@
 # REACT + WORDPRESS = REACTPRESS 💛
 
-Start a **SEO-friendly** Decoupled Wordpress with React in minutes, without configuring boring stuff.<br /><br />
+Start a **SEO-friendly** Decoupled Wordpress with React in minutes, without configuring boring stuff. Just fork and start. <br /><br />
 Under the hood, Reactpress is using [Next.js](https://github.com/zeit/next.js/).
 
 ## Gettings started
 
-### make sur CORS is enabled on Wordpress
+### 1 - Make sur CORS are enabled on your Wordpress
 
 add this to your wp-config.php to make sure CORS are enabled :
 
@@ -14,7 +14,7 @@ add this to your wp-config.php to make sure CORS are enabled :
 header("Access-Control-Allow-Origin: *");
 ```
 
-### install
+### 2 - Install Reactpress
 
 ```sh
 # install dependencis
@@ -23,7 +23,8 @@ npm install
 npm run dev
 ```
 
-You can already start hacking / editing **pages** and **components** directories ! <br /><br />
+### 3 - Add your wordpress api to reactpress.config.js
+
 
 By default, reactpress uses a demo API. To connect your own API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
@@ -32,6 +33,9 @@ module.exports = {
   wordpressApiUrl: "https://dev-reactpress.pantheonsite.io/wp-json"
 };
 ```
+
+You can now start hacking / editing **pages** and **components** directories ! 
+
 
 ## Features
 
