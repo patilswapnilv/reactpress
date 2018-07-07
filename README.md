@@ -1,6 +1,6 @@
 # REACT + WORDPRESS = REACTPRESS 💛
 
-Start a **SEO-friendly** Decoupled Wordpress with React in minutes, without configuring boring stuff. Just fork and start. <br /><br />
+Start a **SEO-friendly** Decoupled Wordpress with React in minutes, without configuring boring stuff. Just fork and start. 
 
 <img width="300" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hipprogriffe.png" />
 
