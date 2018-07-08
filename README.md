@@ -1,8 +1,8 @@
 # Hippogriff : give wings to your Wordpress front-end
 
-<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hipprogriffe.png" />
-
 Create a **SEO-friendly** React front-end in minutes for you Wordpress, without configuring boring stuff. ⚡
+
+<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hipprogriffe.png" />
 
 ## Gettings started
 
@@ -26,7 +26,7 @@ npm run dev
 
 ### 3 - Add your wordpress api to hippogriff.config.js
 
-By default, reactpress uses a demo API. To connect your own API, edit **hippogriff.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
+By default, Hippogriff uses a demo API. To connect your own API, edit **hippogriff.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
 ```js
 module.exports = {
@@ -54,11 +54,11 @@ You can now start hacking / editing **pages** and **components** directories !
 
 ## How it works
 
-Under the hood, Reactpress is using the awesome [Next.js](https://github.com/zeit/next.js/). 
+Under the hood, Hipogriff is using the awesome [Next.js](https://github.com/zeit/next.js/). 
 
 ## CSS
 
-there several available ways to manage your css with Reactpress
+there several available ways to manage your css with Hipogriff
 
 - you can create classic css files and import them like this :
 
