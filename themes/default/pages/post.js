@@ -1,7 +1,7 @@
 import { withRouter } from "next/router";
 import DefaultLayout from "../components/layouts/Layout";
 import Post from "../components/ui/Post";
-import wpapi from "../services/wpapi";
+import wpapi from "../../../services/wpapi";
 
 class PostPage extends React.Component {
   static async getInitialProps({ query }) {

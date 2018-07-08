@@ -1,7 +1,7 @@
 import { withRouter } from "next/router";
 import DefaultLayout from "../components/layouts/Layout";
 import PostList from "../components/ui/PostList";
-import wpapi from "../services/wpapi";
+import wpapi from "../../../services/wpapi";
 import Pagination from "../components/ui/Pagination";
 
 class TagPage extends React.Component {

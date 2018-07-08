@@ -1,8 +1,9 @@
 const express = require("express");
 const next = require("next");
+const config = require("./services/publicConfig");
 
 const dev = process.env.NODE_ENV !== "production";
-const app = next({ dev });
+const app = next({ dev, dir: `./themes/${config.theme}` });
 const handle = app.getRequestHandler();
 
 app

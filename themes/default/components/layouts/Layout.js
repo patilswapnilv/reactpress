@@ -1,7 +1,7 @@
 import Header from "../ui/Header";
 import Navigation from "../ui/Navigation";
 import Container from "../ui/Container";
-import config from "../../services/publicConfig";
+import config from "../../../../services/publicConfig";
 import Logo from "../../images/hippogriff.png";
 
 const Layout = ({ children }) => (
