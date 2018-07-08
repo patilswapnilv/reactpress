@@ -1,6 +1,6 @@
 # Hippogriff : give wings to your Wordpress front-end
 
-Create a **SEO-friendly** React front-end in minutes for you Wordpress API, without configuring boring stuff. ⚡
+Start a **SEO-friendly** React front-end in minutes for you Wordpress API, without configuring boring stuff. ⚡
 
 <img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hippogriff.png" />
 
