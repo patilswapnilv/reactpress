@@ -1,4 +1,4 @@
-const hippogriffConfig = require("../hippogriff.config");
+const hippogriffConfig = require("../reactpress.config");
 
 module.exports = (nextConfig = {}) => {
   return Object.assign({}, nextConfig, {

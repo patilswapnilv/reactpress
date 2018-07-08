@@ -1,7 +1,7 @@
 import Layout from "../components/layouts/Layout";
 import PostList from "../components/ui/PostList";
 import { withRouter } from "next/router";
-import wpapi from "../services/wpapi";
+import wpapi from "../../../services/wpapi";
 import Pagination from "../components/ui/Pagination";
 
 class PostListPage extends React.Component {
