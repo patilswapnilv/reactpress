@@ -4,7 +4,7 @@ Start a **SEO-friendly** React front-end in minutes for you Wordpress API, witho
 
 <img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hippogriff.png" />
 
-Hipogriff is built upon the awesome (https://github.com/zeit/next.js/)[https://github.com/zeit/next.js/] for Server Side Rendering.
+Hippogriff is built upon the awesome (https://github.com/zeit/next.js/)[https://github.com/zeit/next.js/] for Server Side Rendering.
 
 ## Gettings started
 
