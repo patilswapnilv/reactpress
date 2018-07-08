@@ -1,21 +1,21 @@
-# Hippogriff : give wings to your Wordpress front-end
+# reactpress : give wings to your Wordpress front-end
 
 Create a **SEO-friendly** React front-end in minutes for you Wordpress API, without configuring boring stuff. ⚡
 
-<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hippogriff.png" />
+<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/reactpress.png" />
 
 ## Gettings started
 
 ### 1 - Wordpress : Make sure CORS are enabled on your Wordpress
 
-Hippogriff is only your **front-end**. It's up to you to install Wordpress as you would usually do. Hipogriff is relying on [REST API v2](http://v2.wp-api.org), which is automatically enabled since Wordpress 4.7 😊. CORS are special HTTP headers that allows us to pull data from wordpress server API. You can add this to your wp-config.php to make sure CORS are enabled.
+Reactpress is only your **front-end**. It's up to you to install Wordpress as you would usually do. reactpress is relying on [REST API v2](http://v2.wp-api.org), which is automatically enabled since Wordpress 4.7 😊. CORS are special HTTP headers that allows us to pull data from wordpress server API. You can add this to your wp-config.php to make sure CORS are enabled.
 
 ```php
 // allow CORS
 header("Access-Control-Allow-Origin: *");
 ```
 
-### 2 - Install Hippogriff
+### 2 - Install reactpress
 
 ```sh
 # install dependencis
@@ -24,9 +24,9 @@ npm install
 npm run dev
 ```
 
-### 3 - Add your wordpress api to hippogriff.config.js
+### 3 - Add your wordpress api to reactpress.config.js
 
-By default, Hippogriff uses a demo API. To connect your own API, edit **hippogriff.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
+By default, reactpress uses a demo API. To connect your own API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
 ```js
 module.exports = {
@@ -55,11 +55,11 @@ You can now start hacking / editing **pages** and **components** directories !
 
 ## How it works
 
-Under the hood, Hipogriff is using the awesome [Next.js](https://github.com/zeit/next.js/).
+Under the hood, reactpress is using the awesome [Next.js](https://github.com/zeit/next.js/).
 
 ## CSS
 
-there several available ways to manage your css with Hipogriff
+there several available ways to manage your css with reactpress
 
 - you can create classic css files and import them like this :
 
