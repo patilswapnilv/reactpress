@@ -1,16 +1,16 @@
 # REACT + WORDPRESS = REACTPRESS 💛
 
-Start a **SEO-friendly** decoupled Wordpress with React in minutes, without configuring boring stuff. Forget about babel, webpack configuration, url configuration, server Side rendering etc : this works out of the box by default. You can just fork and start. 
+Start a **SEO-friendly** decoupled Wordpress with React in minutes, without configuring boring stuff.
 
 <img width="300" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hipprogriffe.png" />
 
-Under the hood, Reactpress is using [Next.js](https://github.com/zeit/next.js/).
+Under the hood, Reactpress is using the awesome [Next.js](https://github.com/zeit/next.js/). 
 
 ## Gettings started
 
 ### 1 - Make sure CORS are enabled on your Wordpress
 
-Reactpress is only the front-end for your application. It's up to you to install Wordpress as you would usually do. Please not that REST Api is available only since Wordpress 4.7. You can add this to your wp-config.php to make sure CORS are enabled.
+Reactpress is only the **front-end** for your application. It's up to you to install Wordpress as you would usually do. Please note that REST Api v2 is automatically enabled since Wordpress 4.7. CORS are special headers to make sure server allows us to pull data from its API. You can add this to your wp-config.php to make sure CORS are enabled.
 
 ```php
 // allow CORS
