@@ -1,7 +1,7 @@
 {
-  "name": "reactpress",
+  "name": "hippogriff",
   "version": "0.8.0",
-  "description": "React press is a starter for wordpress + react , using Next.js",
+  "description": "A SEO-friendly React starter for your Wordpress API",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",

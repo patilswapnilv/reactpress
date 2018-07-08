@@ -1,6 +1,6 @@
 # Hippogriff : give wings to your Wordpress front-end
 
-Create a **SEO-friendly** React front-end in minutes for you Wordpress, without configuring boring stuff. ⚡
+Create a **SEO-friendly** React front-end in minutes for you Wordpress API, without configuring boring stuff. ⚡
 
 <img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/hipprogriffe.png" />
 
@@ -34,7 +34,7 @@ module.exports = {
 };
 ```
 
-You can now start hacking / editing **pages** and **components** directories ! 
+You can now start hacking / editing **pages** and **components** directories !
 
 ## Features
 
@@ -54,7 +54,7 @@ You can now start hacking / editing **pages** and **components** directories !
 
 ## How it works
 
-Under the hood, Hipogriff is using the awesome [Next.js](https://github.com/zeit/next.js/). 
+Under the hood, Hipogriff is using the awesome [Next.js](https://github.com/zeit/next.js/).
 
 ## CSS
 
@@ -65,5 +65,5 @@ there several available ways to manage your css with Hipogriff
 ```js
 import "../css/globals.css";
 ```
-- css-in-js with styled-jsx, which is shipped by default with Next : https://github.com/zeit/styled-jsx
 
+- css-in-js with styled-jsx, which is shipped by default with Next : https://github.com/zeit/styled-jsx
