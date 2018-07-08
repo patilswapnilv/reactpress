@@ -1,10 +1,10 @@
 # reactpress : give wings to your Wordpress front-end
 
-Start a **SEO-friendly** React front-end in minutes for you Wordpress API, without configuring boring stuff. ⚡ <br />
+Reactpress is starter-kit to create a **SEO-friendly** React front-end for your Wordpress API, without configuring boring stuff. ⚡ <br />
 
 <img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/images/reactpress.png" />
 
-Hippogriff is built upon the awesome [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering.
+Reactpress is built upon the awesome [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering.
 
 ## Gettings started
 
@@ -17,7 +17,7 @@ Reactpress is only your **front-end**. It's up to you to install Wordpress as yo
 header("Access-Control-Allow-Origin: *");
 ```
 
-### 2 - Install reactpress
+### 2 - Install Reactpress
 
 ```sh
 # install dependencis
