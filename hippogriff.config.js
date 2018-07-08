@@ -2,8 +2,9 @@ module.exports = {
   // used by ./services/wpapi to create api url
   wordpressApiUrl: "https://dev-reactpress.pantheonsite.io/wp-json",
   siteInformations: {
-    name: "REACTPRESS",
-    slogan: "Start a SEO-friendly decoupled Wordpress with React in minutes"
+    name: "Hippogriff",
+    slogan:
+      "Create a SEO-friendly React front-end in minutes for you Wordpress, without configuring boring stuff"
   },
   mainMenuLinks: [
     {
