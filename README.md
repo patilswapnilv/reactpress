@@ -49,6 +49,7 @@ You can now start hacking / editing **pages** and **components** directories !
 
 ### planned features
 
+- Woo Commerce components
 - authentification
 - comments
 
