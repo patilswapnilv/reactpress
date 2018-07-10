@@ -2,7 +2,7 @@
 
 Reactpress is starter-kit to create a **SEO-friendly** React front-end for your Wordpress REST API, without configuring boring stuff. ⚡ There is also a GraphQL version : https://github.com/nyl-auster/reactpress-graphql 
 
-<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/themes/default/images/hippogriff.png" />
+<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/themes/starter/images/hippogriff.png" />
 
 Reactpress is built upon the awesome [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering.
 
