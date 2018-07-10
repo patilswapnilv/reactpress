@@ -36,7 +36,7 @@ module.exports = {
 };
 ```
 
-You can now start hacking / editing files from _themes/default_ directory !
+You can now start hacking / editing files from _themes/starter_ directory !
 
 ## Features
 
