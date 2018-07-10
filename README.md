@@ -1,6 +1,6 @@
 # reactpress : give wings to your Wordpress front-end
 
-Reactpress is starter-kit to create a **SEO-friendly** React front-end for your Wordpress REST API, without configuring boring stuff. ⚡ There is also a GraphQL version : https://github.com/nyl-auster/reactpress-graphql 
+Every website wants to appear in searches. Reactpress is starter-kit to create a **SEO-friendly** React front-end for your Wordpress REST API, without configuring boring stuff. ⚡ There is also a GraphQL version : https://github.com/nyl-auster/reactpress-graphql 
 
 <img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/themes/starter/images/hippogriff.png" />
 
