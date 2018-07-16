@@ -1,6 +1,6 @@
 {
   "name": "reactpress",
-  "version": "0.8.0",
+  "version": "0.10.0",
   "description": "A SEO-friendly React starter for your Wordpress API",
   "main": "index.js",
   "scripts": {
