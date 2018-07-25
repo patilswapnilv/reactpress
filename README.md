@@ -17,6 +17,8 @@ Reactpress is only your **front-end**. It's up to you to install Wordpress as yo
 header("Access-Control-Allow-Origin: *");
 ```
 
+There are more headers to ensure CORS but this is the only one i needed to set to get things working. Please open an issue if you have any other trouble with headers.
+
 ### 2 - Install Reactpress
 
 Where do you install reactpress ? it's really up to you but, as an example, you can install it just next to your wordpress :
