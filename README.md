@@ -26,7 +26,7 @@ Where do you install reactpress ? it's really up to you but, as an example, you 
   - wordpress
   - reactpress
 
-Then :
+Then in your reactpress directory:
 ```sh
 # install dependencies
 npm install
