@@ -10,14 +10,12 @@ Reactpress is built upon [Next.js](https://github.com/zeit/next.js/) for Server 
 
 ### 1 - Wordpress : Make sure CORS are enabled on your Wordpress
 
-Reactpress is only your **front-end**. It's up to you to install Wordpress as you would usually do. reactpress is relying on [REST API v2](http://v2.wp-api.org), which is automatically enabled since Wordpress 4.7 😊. CORS are special HTTP headers that allows us to pull data from wordpress server API. You can add this to your wp-config.php to make sure CORS are enabled.
+Reactpress is only your **front-end**. It's up to you to install Wordpress as you would usually do. Reactpress is relying on [REST API v2](http://v2.wp-api.org), which is automatically enabled since Wordpress 4.7 😊. CORS are special HTTP headers that allows us to pull data from wordpress server API. You can add this to your wp-config.php to make sure Wordpress CORS are fully enabled.
 
 ```php
 // allow CORS
 header("Access-Control-Allow-Origin: *");
 ```
-
-There are more headers to ensure CORS but this is the only one i needed to set to get things working. Please open an issue if you have any other trouble with headers.
 
 ### 2 - Install Reactpress
 
