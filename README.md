@@ -44,7 +44,26 @@ module.exports = {
 };
 ```
 
-You can now start hacking / editing files from _themes/starter_ directory !
+You can now start hacking / editing files from _themes/starter_ directory ! 
+
+### 4 - Create your own theme
+
+Instead of hacking starter theme, you can copy and rename starter directory to create your own.
+You will have to tell reactpress in two places than you want to run another theme :
+
+**package.json** : edit build script and change "themes/starter" to  "themes/your_theme"
+```json
+{
+  "scripts": {
+    "build": "node_modules/.bin/next build themes/starter",
+  },
+}
+```
+
+**server.js** - same thing for line 5 :
+```js
+const app = next({ dev, dir: `./themes/starter` });
+```
 
 ## Features
 
