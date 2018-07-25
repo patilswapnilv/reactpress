@@ -19,8 +19,14 @@ header("Access-Control-Allow-Origin: *");
 
 ### 2 - Install Reactpress
 
+Where do you install reactpress ? it's really up to you but, as an example, you can install it just next to your wordpress :
+- www
+  - wordpress
+  - reactpress
+
+Then :
 ```sh
-# install dependencis
+# install dependencies
 npm install
 # start the dev server on http://localhost:3000
 npm run dev
@@ -55,10 +61,6 @@ You can now start hacking / editing files from _themes/starter_ directory !
 - authentification
 - comments
 
-## How it works
-
-Under the hood, reactpress is using the awesome [Next.js](https://github.com/zeit/next.js/).
-
 ## CSS
 
 there several available ways to manage your css with reactpress
@@ -70,3 +72,9 @@ import "../css/globals.css";
 ```
 
 - css-in-js with styled-jsx, which is shipped by default with Next : https://github.com/zeit/styled-jsx
+
+## deployment
+
+Reactpress needs a node server, because on the first page load, html is served by a node server (that's why search engines are able to crawl your content). 
+
+If you don't want to manage a server yourself, Next.js plays really well with now : this is a very easy way to deploy a next.js app : https://zeit.co/now
