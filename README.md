@@ -44,31 +44,12 @@ module.exports = {
 
 You can now start hacking / editing files from _themes/starter_ directory ! 
 
-### (optionnal) 4 - Create your own theme
-
-Instead of hacking starter theme, you can copy and rename starter directory to create your own theme directory.
-You will have to tell reactpress in two places than you want to run another theme :
-
-**package.json** : edit build script and change "themes/starter" to  "themes/your_theme"
-```json
-{
-  "scripts": {
-    "build": "node_modules/.bin/next build themes/starter",
-  },
-}
-```
-
-**server.js** - same thing for line 5 :
-```js
-const app = next({ dev, dir: `./themes/starter` });
-```
-
 ## Features
 
 ### current features
 
-- SEO Friendly : Server Side Rendering with Next.js
-- Nices seo-friendly urls using wordpress slugs
+- SEO Friendly : Server Side Rendered with Next.js
+- Seo-friendly urls using wordpress slugs
 - Post, Posts list, posts by category, posts by tag
 - Page
 - Page loader (progress bar)
@@ -82,7 +63,7 @@ const app = next({ dev, dir: `./themes/starter` });
 
 ## CSS
 
-there several available ways to manage your css with reactpress
+There are several available ways to manage your css with reactpress
 
 - you can create classic css files and import them like this :
 
