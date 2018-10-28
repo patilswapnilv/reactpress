@@ -1,12 +1,18 @@
 # ReactPress ( Rest API edition )
 
-Reactpress is starter-kit to create a Next.js ( **SEO-friendly** React ) front-end backed by Wordpress REST API. ⚡ There is also a GraphQL version : https://github.com/nyl-auster/reactpress-graphql 
+Reactpress is a starter-kit to create a Next.js ( **SEO-friendly** React ) front-end backed by Wordpress REST API. Reactpress is built upon [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering, so if your are not familiar with Next.js, you should take a quick look at it. ⚡ There is also a GraphQL version available : https://github.com/nyl-auster/reactpress-graphql 
 
-<img width="200" src="https://raw.githubusercontent.com/nyl-auster/reactpress/master/themes/starter/images/hippogriff.png" />
+<center>
 
-Reactpress is built upon [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering, so if your are not familiar with Next.js, you should take a quick look at it.
+| REACT | NEXT | WORDPRESS |
+|:---:|:---:|:---:|
+|<img height="80" src="./images/react.svg" /> |  <img height="70" src="./images/next.png" /> | <img height="70" src="./images/wordpress.svg" />
 
-## Gettings started
+</center>
+
+
+
+## GETTING STARTED
 
 ### 1 - Wordpress : Make sure CORS are enabled on your Wordpress
 
@@ -20,9 +26,12 @@ header("Access-Control-Allow-Origin: *");
 ### 2 - Install Reactpress
 
 Where do you install reactpress ? it's really up to you but, as an example, you can install it just next to your wordpress :
-- www
-  - wordpress
-  - reactpress
+
+```js
+📁 www
+  📁 wordpress
+  📁 reactpress
+```
 
 Then in your reactpress directory:
 ```sh
@@ -32,7 +41,7 @@ npm install
 npm run dev
 ```
 
-### 3 - Add your wordpress api to reactpress.config.js
+### 3 - Add your wordpress api endpoint to reactpress.config.js
 
 By default, reactpress uses a demo API. To connect your own API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
@@ -42,11 +51,11 @@ module.exports = {
 };
 ```
 
-You can now start hacking / editing files from _themes/starter_ directory ! 
+You can now start hacking / editing files from pages and components directories !
 
 ## Features
 
-### current features
+### current:
 
 - SEO Friendly : Server Side Rendered with Next.js
 - Seo-friendly urls using wordpress slugs
@@ -55,7 +64,7 @@ You can now start hacking / editing files from _themes/starter_ directory !
 - Page loader (progress bar)
 - Pagination
 
-### planned features
+### planned:
 
 - Woo Commerce components
 - authentification
@@ -63,18 +72,18 @@ You can now start hacking / editing files from _themes/starter_ directory !
 
 ## CSS
 
-There are several available ways to manage your css with reactpress
+There are several available ways to manage your css with Next.js:
 
-- you can create classic css files and import them like this :
+- you can create classic css files and import them like this in your component :
 
 ```js
 import "../css/globals.css";
 ```
 
-- css-in-js with styled-jsx, which is shipped by default with Next : https://github.com/zeit/styled-jsx
+- *css-in-js* is available with `styled-jsx`, which is shipped by default with Next : https://github.com/zeit/styled-jsx
 
-## deployment
+## Deployment
 
 Reactpress needs a node server, because on the first page load, html is served by a node server (that's why search engines are able to crawl your content). 
 
-If you don't want to manage a server yourself, Next.js plays really well with now : this is a very easy way to deploy a next.js app : https://zeit.co/now
+If you don't want to manage a server yourself, Next.js plays really well with `now` : this is a very easy way to deploy a *next.js* app : https://zeit.co/now
