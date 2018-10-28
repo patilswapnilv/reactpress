@@ -1,7 +1,7 @@
 import { withRouter } from "next/router";
 import DefaultLayout from "../components/layouts/Layout";
 import Page from "../components/ui/Page";
-import wpapi from "../../../services/wpapi";
+import wpapi from "../services/wpapi";
 
 class PagePage extends React.Component {
   static async getInitialProps({ query }) {
