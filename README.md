@@ -1,6 +1,8 @@
 # ReactPress ( Rest API edition )
 
-Reactpress is a starter-kit to create a Next.js ( **SEO-friendly** React ) front-end backed by Wordpress REST API. Reactpress is built upon [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering, so if your are not familiar with Next.js, you should take a quick look at it. ⚡ There is also a GraphQL version available : https://github.com/nyl-auster/reactpress-graphql 
+**Reactpress** is a starter-kit to create a Next.js ( **SEO-friendly** React ) front-end backed by Wordpress REST API. 
+
+*Reactpress* is built upon [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering, so if your are not familiar with Next.js, you should take a quick look at it. ⚡ There is also a GraphQL version available : https://github.com/nyl-auster/reactpress-graphql 
 
 <center>
 
@@ -84,6 +86,14 @@ import "../css/globals.css";
 
 ## Deployment
 
-Reactpress needs a node server, because on the first page load, html is served by a node server (that's why search engines are able to crawl your content). 
+```sh
+# compile for production
+npm run build
+
+# start the production server
+npm run start
+```
+
+*Reactpress* needs a node server, because on the first page load, html is served by a node server (that's why search engines are able to crawl your content).
 
 If you don't want to manage a server yourself, Next.js plays really well with `now` : this is a very easy way to deploy a *next.js* app : https://zeit.co/now
