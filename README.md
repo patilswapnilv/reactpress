@@ -45,7 +45,7 @@ npm run dev
 
 ### 3 - Add your wordpress api endpoint to reactpress.config.js
 
-By default, reactpress uses a demo API. To connect your own API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
+To connect to your API, edit **reactpress.config.js** file and edit variable **wordpressApiUrl** so that it points to your wordpress API. Don't forget the **wp-json** at the end of the url.
 
 ```js
 module.exports = {
