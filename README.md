@@ -1,5 +1,7 @@
 # ReactPress ( Rest API edition )
 
+⚠️ I'm not maintaining this project anymore, as i'm using mainly Nuxt.js on my projects now. Feel free to fork and maintain a nice Next.js starter ⚠️
+
 **Reactpress** is a starter-kit to create a Next.js ( **SEO-friendly** React ) front-end backed by Wordpress REST API. 
 
 *Reactpress* is built upon [Next.js](https://github.com/zeit/next.js/) for Server Side Rendering, so if your are not familiar with Next.js, you should take a quick look at it. ⚡ There is also a GraphQL version available : https://github.com/nyl-auster/reactpress-graphql 
@@ -65,12 +67,6 @@ You can now start hacking / editing files from pages and components directories 
 - Page
 - Page loader (progress bar)
 - Pagination
-
-### planned:
-
-- Woo Commerce components
-- authentification
-- comments
 
 ## CSS
 
